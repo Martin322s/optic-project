@@ -47,3 +47,28 @@ designed to be interactive and easy to use, with clear
 prompts and feedback.
 
 ## A description of the architecture, classes, and relationships between them
+- The code is a C++ program that simulates a control system of
+supplier-optical relationships. It defines three classes:
+Optic, Supplier and SupplierManager.
+- The Optic class represents an optical component and contains elements
+from data to store its type, material, thickness and
+diopter. It provides methods to access and modify these data members, as well as an overloaded << operator for resolution
+of printing the object.
+- The Supplier class represents an optics supplier and contains
+members with data to store his bullstat, name,
+location, phone and vector of Optic objects,
+representing the optics it delivers. It provides methods for
+access and modify these data members and methods
+to add Optic to the vector and an overloaded << operator to
+enable the object to be printed.
+- The SupplierManager class is a container for Supplier objects and provides
+methods to add a provider to the container, show the
+the list of suppliers, obtaining a specific supplier by
+index, calculation of the price of an order for a given supplier and
+save the data to a file. It also overloads the operator
+<< to allow the object to be printed.
+- The main() function contains a menu that allows the user to
+to interact with the program by choosing from several options for
+add suppliers and optics, display a list of
+suppliers, calculate the price of an order and save the
+the data in a file.
