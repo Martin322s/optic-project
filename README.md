@@ -72,3 +72,26 @@ to interact with the program by choosing from several options for
 add suppliers and optics, display a list of
 suppliers, calculate the price of an order and save the
 the data in a file.
+
+## Guide to using the application by the user
+The program provides a menu-based interface with the following
+options:
+- Add Provider: Allows the user to add a new one
+provider by entering name, bulstat, city and
+phone number.
+- Add optics to a provider: Allows the user to
+added new optics to an existing supplier's inventory, such as
+select the supplier from a list and enter the name, material,
+the thickness, diopter and type of optics.
+- Show suppliers: Shows a list of all existing ones
+suppliers by showing their name and index.
+- Order Price Calculation: Allows the user to
+calculate the total cost per order for a specific type of optics and
+quantity by selecting a supplier from a list and entering the type and
+the amount of optics.
+- Save Vendors to File: Allows the user to
+save all vendors and their optics to a text file as
+enter the file name.
+The program also provides error messages in case of
+incorrect input, such as invalid indexes or missing
+information.
